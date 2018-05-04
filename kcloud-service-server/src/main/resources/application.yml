@@ -2,7 +2,7 @@ server:
   port: 9000
 spring:
   application:
-    name: server
+    name: kcloud-service-server
 eureka:
   client:
     serviceUrl:
