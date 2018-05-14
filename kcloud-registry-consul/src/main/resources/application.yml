@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: registry-consul-server
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        healthCheckPath: /
+        healthCheckInterval: 5s
+        instance-id: registry-consul-server
+        #enabled: true
