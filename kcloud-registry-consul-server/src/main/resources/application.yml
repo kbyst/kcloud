@@ -1,6 +1,8 @@
 spring:
   application:
     name: registry-consul-server
+  server:
+    port: 8888
   cloud:
     consul:
       host: localhost
