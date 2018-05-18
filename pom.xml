@@ -13,7 +13,12 @@
 
     <modules>
         <module>kcloud-config</module>
-        <module>kcloud-registry</module>
+        <module>kcloud-registry-eureka</module>
+        <module>kcloud-registry-eureka-client</module>
+        <module>kcloud-registry-eureka-server</module>
+        <module>kcloud-registry-consul-client</module>
+        <module>kcloud-registry-consul-server</module>
+
 
         <!--<module>kcloud-monitoring</module>-->
         <!--<module>kcloud-gateway</module>-->
